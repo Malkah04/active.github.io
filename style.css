@@ -119,13 +119,21 @@ body{
 @media screen and (max-width:768px) {
     .body{
         box-sizing: border-box;
+        width: 100%;
     }
     .cont{
         flex-direction: column;
         width: 100%;
-        margin: 0 0;
-        display: flex;
+
+
+
+
+        
+        margin: 0 ;
+        flex-wrap: wrap;
         justify-content: center;
+        place-items: center;
+        padding: 20px 0;
     }
     .left{ 
         border-bottom-left-radius:10px ;
@@ -140,9 +148,5 @@ body{
     box-shadow: 0;
 }
 }
-@media screen and (min-width:333px) {
-    .body{
-        margin: 0;
-    }
-}
+
 
